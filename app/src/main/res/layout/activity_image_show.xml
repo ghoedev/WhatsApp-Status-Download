@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.app.status.Activity.ShowItem">
+    tools:context="a.ghoedev.statussaver.a.app.status.Activity.ShowItem">
 
-    <com.app.status.Util.StatusBarView
+    <a.ghoedev.statussaver.Util.StatusBarView
         android:id="@+id/statusBarView_imageShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

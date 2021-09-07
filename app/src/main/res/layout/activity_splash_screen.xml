@@ -4,6 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="com.app.status.Activity.SplashScreen">
+    tools:context="a.ghoedev.statussaver.a.app.status.Activity.SplashScreen">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

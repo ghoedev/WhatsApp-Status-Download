@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.status">
+    package="a.ghoedev.statussaver">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
 
     <application
-        android:name=".Util.YouApplication"
+        android:name="a.ghoedev.statussaver.Util.YouApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
@@ -17,18 +17,18 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true">
-        <activity android:name=".Activity.SplashScreen">
+        <activity android:name="a.ghoedev.statussaver.Activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.WelcomeActivity" />
-        <activity android:name=".Activity.MainActivity" />
-        <activity android:name=".Activity.PrivacyPolicy" />
-        <activity android:name=".Activity.ShowItem" />
-        <activity android:name=".Activity.VideoPlayer" />
+        <activity android:name="a.ghoedev.statussaver.Activity.WelcomeActivity" />
+        <activity android:name="a.ghoedev.statussaver.Activity.MainActivity" />
+        <activity android:name="a.ghoedev.statussaver.Activity.PrivacyPolicy" />
+        <activity android:name="a.ghoedev.statussaver.Activity.ShowItem" />
+        <activity android:name="a.ghoedev.statussaver.Activity.VideoPlayer" />
 
         <!-- optional (needed if default theme has no action bar) -->
         <activity

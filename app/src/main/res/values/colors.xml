@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#EC407A</color>
-    <color name="colorPrimaryDark">#EC407A</color>
-    <color name="colorAccent">#EC407A</color>
-    <color name="toolbar">#EC407A</color>
-    <color name="nav_bg">#EC407A</color>
+    <color name="colorPrimary">#075E55</color>
+    <color name="colorPrimaryDark">#075E55</color>
+    <color name="colorAccent">#075E55</color>
+    <color name="toolbar">#075E55</color>
+    <color name="nav_bg">#075E55</color>
     <color name="nav_drawer">#FFFFFF</color>
     <color name="app_background">#f2f2f2</color>
     <color name="drawer_item">#626262</color>
-    <color name="drawer_item_selected">#EC407A</color>
+    <color name="drawer_item_selected">#075E55</color>
 
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="tabView_text">#99FFFFFF</color>
     <color name="tab_indicator">#FFFFFF</color>
-    <color name="progressBar_color">#EC407A</color>
+    <color name="progressBar_color">#075E55</color>
     <color name="textView_noData">#626262</color>
-    <color name="activate_color">#EC407A</color>
+    <color name="activate_color">#075E55</color>
     <color name="in_activate_color">#FFFFFF</color>
     <color name="control_image_show">#80000000</color>
 

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.app.status.Util.TouchImageView
+    <a.ghoedev.statussaver.Util.TouchImageView
         android:id="@+id/imageView_image_show_adapter"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
