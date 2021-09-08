@@ -7,6 +7,11 @@
     <string name="isRTL">false</string>
 
     <string name="play_more_app">https://play.google.com/store/apps/dev?id=6777593664436260482</string>
+    <string name="ad_unit_id">ca-app-pub-2513915580660974/7349481877</string>
+    <string name="ad_unit_id2">ca-app-pub-2513915580660974/7349481877</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2513915580660974/1604424505</string>
+    <string name="large_banner_ad_unit">ca-app-pub-2513915580660974/1604424505</string>
+    <string name="app_open_id">ca-app-pub-2513915580660974/6824961599</string>
 
     <string name="image">Image</string>
     <string name="video">Video</string>

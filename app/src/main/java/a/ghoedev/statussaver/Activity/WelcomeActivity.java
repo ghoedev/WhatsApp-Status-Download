@@ -11,13 +11,17 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import a.ghoedev.statussaver.AdManager;
 import a.ghoedev.statussaver.Adapter.MyViewPagerAdapter;
+import a.ghoedev.statussaver.AppOpenManager;
 import a.ghoedev.statussaver.R;
 import a.ghoedev.statussaver.Util.Method;
+
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.material.textview.MaterialTextView;
 
 public class WelcomeActivity extends AppCompatActivity {
-
+    private static AppOpenManager appOpenManager;
     private Method method;
     private int[] layouts;
     private TextView[] dots;
@@ -32,6 +36,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         method = new Method(WelcomeActivity.this);
         method.forceRTLIfSupported();
+        appOpenManager = new AppOpenManager(this);
 
         // Checking for first time launch - before calling setContentView()
         if (!method.isFirstTimeLaunch()) {
@@ -70,6 +75,9 @@ public class WelcomeActivity extends AppCompatActivity {
         textView_Skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                InterstitialAd ad = AdManager.showInterstitial();
+                if (ad != null) {
+                    ad.show();}
                 launchHomeScreen();
             }
         });
@@ -77,6 +85,8 @@ public class WelcomeActivity extends AppCompatActivity {
         textView_Next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 // checking for last page
                 // if last page home screen will be launched
                 int current = getItem(+1);
@@ -130,11 +140,15 @@ public class WelcomeActivity extends AppCompatActivity {
 
             // changing the next button text 'NEXT' / 'GOT IT'
             if (position == layouts.length - 1) {
+
                 // last page. make button text to GOT IT
                 textView_Next.setText(getString(R.string.start));
                 textView_Skip.setVisibility(View.GONE);
             } else {
                 // still pages are left
+                InterstitialAd ad = AdManager.showInterstitial();
+                if (ad != null) {
+                    ad.show();}
                 textView_Next.setText(getString(R.string.next));
                 textView_Skip.setVisibility(View.VISIBLE);
             }

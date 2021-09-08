@@ -6,7 +6,7 @@ android {
         applicationId "a.ghoedev.statussaver"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
+        versionCode 8
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
@@ -34,6 +34,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'org.chromium.net:cronet-embedded:76.3809.111'
+    implementation 'androidx.lifecycle:lifecycle-process:2.3.1'
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0-alpha4', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -45,6 +46,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
     implementation 'commons-io:commons-io:2.6'
+    implementation 'com.google.android.gms:play-services-ads:19.8.0'
     implementation 'com.google.android.exoplayer:exoplayer:2.11.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.karumi:dexter:6.0.2'
