@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Status</string>
+    <string name="app_name">Yo Whatsapp</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -19,6 +19,12 @@
     <string name="more_app">More App</string>
     <string name="share_app">Share App</string>
     <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="message">Type your message here</string>
+    <string name="phone">Phone Number</string>
+    <string name="sending">Sending</string>
+    <string name="to">To\\</string>
+    <string name="msg">Message</string>
 
     <string name="exit">Exit</string>
     <string name="Please_click_BACK_again_to_exit">Please click BACK again to exit</string>
@@ -56,5 +62,6 @@
                 "Continued use of our app will be seen as acceptance of our privacy and personal information policies. Please contact us if you have any queries regarding how we manage user data and personal information.\n"  
                 "\n"  
                 "This policy is effective as of 10 August 2021.\n"</string>
+    <string name="fbinter_id">hh</string>
 
 </resources>

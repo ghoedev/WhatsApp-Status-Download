@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the ghoedev under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ghoedev.statussaver", appContext.getPackageName());
+        assertEquals("com.ghoedev.yoss", appContext.getPackageName());
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="a.ghoedev.statussaver">
+    package="a.ghoedev.yoss">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
-        android:name="a.ghoedev.statussaver.Util.YouApplication"
+        android:name="a.ghoedev.yoss.Util.YouApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
@@ -19,18 +19,20 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true">
-        <activity android:name="a.ghoedev.statussaver.Activity.SplashScreen">
+        <activity android:name="a.ghoedev.yoss.Activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="a.ghoedev.statussaver.Activity.WelcomeActivity" />
-        <activity android:name="a.ghoedev.statussaver.Activity.MainActivity" />
-        <activity android:name="a.ghoedev.statussaver.Activity.PrivacyPolicy" />
-        <activity android:name="a.ghoedev.statussaver.Activity.ShowItem" />
-        <activity android:name="a.ghoedev.statussaver.Activity.VideoPlayer" />
+        <activity android:name="a.ghoedev.yoss.Activity.WelcomeActivity" />
+        <activity android:name="a.ghoedev.yoss.Activity.DirectMessageActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="a.ghoedev.yoss.Activity.MainActivity" />
+        <activity android:name="a.ghoedev.yoss.Activity.PrivacyPolicy" />
+        <activity android:name="a.ghoedev.yoss.Activity.ShowItem" />
+        <activity android:name="a.ghoedev.yoss.Activity.VideoPlayer" />
 
         <!-- optional (needed if default theme has no action bar) -->
         <activity

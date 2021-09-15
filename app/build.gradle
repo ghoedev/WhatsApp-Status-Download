@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "a.ghoedev.statussaver"
+        applicationId "a.ghoedev.yoss"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 8
@@ -49,8 +49,12 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:19.8.0'
     implementation 'com.google.android.exoplayer:exoplayer:2.11.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
     implementation 'com.karumi:dexter:6.0.2'
     implementation 'androidx.multidex:multidex:2.0.1'
     testImplementation 'junit:junit:4.12'
     implementation 'org.jetbrains:annotations:16.0.1'
+    implementation 'com.github.joielechong:countrycodepicker:2.4.2'
+    implementation 'com.facebook.android:audience-network-sdk:6.+'
+    implementation 'in.codeshuffle:typewriterview:1.1.0'
 }

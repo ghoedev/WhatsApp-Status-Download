@@ -8,9 +8,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/drawable-xhdpi/ic_fab_delete.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/drawable-xhdpi/rounded_corner.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/layout/activity_direct_message.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/layout/activity_privacy_policy.xml" value="0.115625" />
+        <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/layout/fragment.xml" value="0.115625" />
+        <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/layout/list_contact.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/layout/welcome_slide_one.xml" value="0.115625" />
         <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/layout/welcome_slide_two.xml" value="0.115625" />
         <entry key="..\:/Users/LENOVO/projo/WhatsApp-Status-Download/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18055555555555555" />

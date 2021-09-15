@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="a.ghoedev.statussaver.a.app.status.Activity.WelcomeActivity">
+    tools:context="a.ghoedev.yoss.a.app.status.Activity.WelcomeActivity">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
